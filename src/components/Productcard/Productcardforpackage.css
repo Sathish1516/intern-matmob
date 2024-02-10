@@ -1,0 +1,118 @@
+.product-card1 {
+    display: flex;
+    width: 100%;
+    
+    gap: 20px; 
+    /* padding: 50px; */
+    /* border: 0.5px solid  black; */
+   
+   
+  }
+  .product-card1:hover {
+    /* transform: translateY(-5px); */
+    transform: scale(0.9);
+    /* z-index: 9999; */ 
+  }
+  
+  .product-image1{
+ 
+    width: 500px;
+    
+  }
+  .product-details1{
+    /* background: linear-gradient(180deg, #FFFDFD 0%, #FFFDFD 100%); */
+   
+   width: 50%;
+  
+  }
+  .image-container1{
+    width: 50%;
+    /* position: relative; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(180deg, #FFFDFD 0%, #FFFDFD 100%);
+  }
+  .offer2 {
+    text-align: left;
+    background: #732C57;
+    color: #ffffff;
+    margin-left: 150px;
+    border-radius: 10px;
+    padding: 2px;
+  }
+  
+  .price2 {
+    text-align: right;
+    background-color: #732C57;
+    color: #ffffff;
+    border-radius: 10px;
+    margin-right: 150px;
+   padding: 2px;
+   
+  
+  }
+  .product-price-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: auto;
+   
+  }
+  .product-title1{
+    
+width: 70%;
+
+
+height: auto;
+margin-left: 110px;
+text-transform: uppercase;
+
+color: #000;
+text-align: center;
+font-size: 30px;
+font-family: Inter;
+font-weight: 700;
+
+  }
+  .product-price1{
+    margin: 10px;
+  }
+  .product-description1{
+    color: #000;
+font-size: 26px;
+font-family: Inter;
+font-weight: 600;
+width: 40%;
+text-transform: capitalize;
+text-align: center;
+margin-left: 220px;
+padding: 10px;
+margin-top: 50px;
+
+  }
+
+  .purchase-button1 {
+    display: block;
+    width: 20%;
+    padding: 10px;
+    background: #D390B0;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-left: 300px;
+  }
+  
+  .purchase-button1:hover {
+    background-color: #732C57;
+  }
+
+  
+  

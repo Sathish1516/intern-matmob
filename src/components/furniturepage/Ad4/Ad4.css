@@ -1,0 +1,64 @@
+.p2{
+    
+    padding: 10px;
+    max-height: 3em; 
+    line-height: 1.2em; 
+  
+    width: 550px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 56px;
+    text-align: center;
+    
+    color: #802276;
+    margin-top: 50px;
+    margin-left: 100px;
+  
+  }
+
+.section2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two columns, adjust the width as needed */
+  gap: 20px; /* Set the gap between columns */
+  background: linear-gradient(269.91deg, #D390B0 1.21%, #D883AD 33.52%, #E7AECC 67.62%, #FBE2F4 100.53%);
+  margin-top: 10px ;
+  margin-bottom: 10px;
+}
+.h{
+    text-align: center;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 38px;
+color: #85345A;
+margin-top: 150px;
+}
+/* .image-container1 {
+    
+    width: 400px; 
+    height: 300px; 
+    overflow: hidden;
+    margin-top: 50px;
+    margin-right: -100px;
+  }
+  
+ 
+  
+  .image-container1:hover::before {
+    opacity: 1;
+  }
+  
+  .image-container1 img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .image-container1:hover img {
+    transform: scale(1.1);
+    margin-right: 100px;
+  } */

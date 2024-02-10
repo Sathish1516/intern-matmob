@@ -1,0 +1,4 @@
+.animated-image:hover {
+    transform: scale(0.80);
+    transition: all 400ms ease;
+  }

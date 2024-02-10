@@ -1,0 +1,54 @@
+
+.section2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two columns, adjust the width as needed */
+  gap: 20px; /* Set the gap between columns */
+  background: linear-gradient(180.04deg, #FBE2F4 30.08%, #FBE2F4 92.98%,#FBE2F4 68.94%, #FFFFFF 80.15%);
+}
+.animated-image2:hover {
+  transform: scale(0.8  );
+  transition: all 400ms ease;
+
+
+}
+.kitchenrule{
+    font-family: 'Akronim';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 86px;
+text-align: center;
+
+color: #9B4092;
+
+}
+.styled-text{
+    font-family: 'Akronim';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+  
+    text-align: center;
+    
+    color: #85345A;
+
+}
+.p5{
+    
+    padding: 10px;
+    /* max-height: 3em; 
+    line-height: 1.2em;  */
+  
+    /* width: 550px; */
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 0.1;
+    text-align: center;
+    
+    color: black;
+    margin-top: 10px;
+  
+  }

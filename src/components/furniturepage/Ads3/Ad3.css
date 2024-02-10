@@ -1,0 +1,32 @@
+.p1{
+    
+    padding: 10px;
+    max-height: 3em; 
+    line-height: 1.2em; 
+  
+    width: 550px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 56px;
+    text-align: center;
+    
+    color: #802276;
+    margin-top: 100px;
+  
+  }
+
+.section1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two columns, adjust the width as needed */
+  gap: 20px; /* Set the gap between columns */
+  background: linear-gradient(90deg, #C45086 0%, #D883AD 31.56%, #E7AECC 60.21%, #FBE2F4 95.62%);
+}
+.animated-image1:hover {
+  transform: scale(0.9);
+  transition: all 400ms ease;
+
+
+}

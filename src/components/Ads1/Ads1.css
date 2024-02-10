@@ -1,0 +1,24 @@
+.section {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns, adjust the width as needed */
+    gap: 20px; /* Set the gap between columns */
+  }
+  
+ 
+  .offer img {
+    
+    height: 80%;
+    margin-top: 30px;
+    width: 90%;
+    margin-left: 20px;
+  
+    object-fit: cover;
+
+  }
+  
+
+  
+  .animated-image:hover {
+    transform: scale(0.80);
+    transition: all 400ms ease;
+  }

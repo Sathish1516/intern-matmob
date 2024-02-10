@@ -1,0 +1,121 @@
+
+
+
+/* Container styles */
+
+.auth-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-top: 100px;
+    height: 100%;
+}
+
+
+/* Heading styles */
+
+.loginh {
+    text-align: center;
+    /* margin-bottom: 20px; */
+    margin-top: -30px;
+    color: #C35086;
+font-size: 38px;
+font-family: Inter;
+font-weight: 700;
+}
+
+
+/* Error and success message styles */
+
+.error-message,
+.success-message {
+    color: rgb(234, 91, 165);
+    margin-bottom: 10px;
+}
+
+
+/* Form styles */
+
+.login-form label,
+.register-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #C35086;
+font-size: 16px;
+font-family: Inter;
+font-weight: 700;
+}
+
+.login-form input,
+.register-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 30px;
+  
+}
+
+.in{
+    background:  #E7AECC;
+}
+.login-form button,
+.register-form button {
+    width: 50%;
+    margin-left: 100px;
+    padding: 10px;
+    background: #C35086;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+}
+input::placeholder {
+    color: rgb(171, 167, 167); 
+    /* margin-left: 200px; */
+  }
+
+
+/* Link button styles */
+
+.link-btn {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+    color: #C35086;
+    background:rgb(255, 240, 248);
+    text-decoration: none;
+    padding: 10px 20px;
+    border: #E7AECC;
+}
+
+
+/* Container background gradient */
+
+.auth-form-container {
+   background:  rgb(255, 240, 248);
+    /* background: linear-gradient(180deg, #D390B0 0%, rgba(249, 241, 243, 0.0537035) 99.96%, rgba(249, 242, 244, 0.0470386) 99.97%, rgba(251, 245, 246, 0.030053) 99.98%, rgba(255, 251, 251, 0.00208346) 99.99%, rgba(255, 251, 251, 0) 100%); */
+    
+}
+
+
+/* Centered form on larger screens */
+
+@media screen and (min-width: 600px) {
+    .auth-form-container {
+        padding: 5rem;
+        border: 1px solid white;
+        border-radius: 10px;
+      padding-top: 150px;
+        /* margin: 0.5rem; */
+    }
+}
+
+
+
+

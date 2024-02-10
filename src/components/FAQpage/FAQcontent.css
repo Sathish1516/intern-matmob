@@ -1,0 +1,37 @@
+.faq-title{
+    color: #85345A;
+    /* margin-top: 100px; */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+    margin-left: 20px;
+}
+.faq{
+    width: 100%;
+    /* margin-left: 20px; */
+}
+.faqsubtitle{
+    color:#C35086;
+  
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 26px;
+margin-left: 70px;
+}
+.fa{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 30px;
+    /* width: 1418px; */
+    margin-left: 100px;
+    
+    
+    
+    color: black;
+}

@@ -1,0 +1,116 @@
+* {
+	
+	
+	box-sizing: border-box;
+	
+}
+.nav{
+    width: 100%;
+   
+}
+ 
+nav ul  {
+    margin-left: 150px;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 100px;
+  
+  }
+  nav ul li a {
+    position: relative;
+  color: #fff;
+  font-weight: 800;
+  font-size: 16px;
+  text-decoration: none;
+  margin-top: 15px;
+ 
+  
+}
+nav a:hover {
+	color: #802276;
+}
+
+.furniture{
+    /* position: absolute;
+width: 272px;
+height: 58px;
+left: 400px;
+top: 25px; */
+
+font-family: 'Inter';
+font-style: normal;
+/* font-weight: 800;
+font-size: 18px;
+line-height: 58px; */
+
+
+
+color: #FFFFFF;
+
+}
+.appliances{
+    /* position: absolute;
+width: 307px;
+height: 58px;
+left: 500px;
+top: 35 px; */
+
+font-family: 'Inter';
+font-style : normal;
+/* font-weight: 700;
+font-size: 18px;
+line-height: 58px; */
+
+
+
+color: #FFFFFF;
+}
+
+
+.kitchen{
+    font-family: 'Inter';
+font-style : normal;
+
+}
+.package{
+    font-family: 'Inter';
+    font-style : normal;
+}
+.login{
+    
+font-family: 'Inter';
+font-style : normal;
+margin-left: 50px;
+}
+.activeLink {
+    color: #802276; /* Text color */
+    font-weight: bold; /* Make the text bold */
+    text-decoration: none; /* Remove underline */
+    position: relative; /* Enable positioning for the pseudo-element */
+  }
+  
+  .activeLink::before {
+    content: ""; /* Add content for the pseudo-element */
+    position: absolute; /* Position the pseudo-element */
+    bottom: -2px; /* Adjust the distance from the text */
+    left: 0; /* Align the pseudo-element with the text */
+    width: 100%; /* Set the width to cover the entire link */
+    height: 2px; /* Set the height of the underline */
+    background-color: #802276; /* Set the color of the underline */
+    opacity: 0; /* Initially hide the underline */
+    transition: opacity 0.3s; /* Add a smooth transition effect */
+  }
+  
+  .activeLink:hover::before {
+    opacity: 1; /* Show the underline on hover */
+  }
+
+
+
+
+
+
+
+
+  

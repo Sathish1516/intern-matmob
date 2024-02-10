@@ -1,0 +1,12 @@
+.section3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns, adjust the width as needed */
+    gap: 20px; /* Set the gap between columns */
+  
+  }
+  .animated-image2:hover {
+    transform: scale(0.8  );
+    transition: all 400ms ease;
+  
+  
+  } 

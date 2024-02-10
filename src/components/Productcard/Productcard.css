@@ -1,0 +1,110 @@
+/* Styling for the product card container */
+.product-card:hover {
+  transform: translateY(-5px);
+  /* transform: scale(1.2);
+  z-index: 9999; */
+}
+
+/* Styling for the product image */
+.product-image {
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* Styling for the product title */
+.product-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-top: -5px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* Styling for the product description */
+.product-description {
+  font-size: 14px;
+  margin-bottom: 10px;
+  display: none;
+}
+
+/* Styling for the product price */
+.product-price {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'Inter';
+  font-style: normal;
+  margin-bottom: 10px;
+}
+
+/* Styling for the purchase button */
+.purchase-button {
+  display: block;
+  width: 70%;
+  padding: 10px;
+  background: #D390B0;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.purchase-button:hover {
+  background-color: #732C57;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product-card {
+  width: 300px;
+  background: linear-gradient(180deg, #D390B0 0%, rgba(249, 241, 243, 0.0537035) 99.96%, rgba(249, 242, 244, 0.0470386) 99.97%, rgba(251, 245, 246, 0.030053) 99.98%, rgba(255, 251, 251, 0.00208346) 99.99%, rgba(255, 251, 251, 0) 100%);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+/* .product-card:hover .product-description {
+  display: block;
+} */
+
+.price-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.offer1 {
+  text-align: left;
+  background: #732C57;
+  color: #ffffff;
+}
+
+.price1 {
+  text-align: right;
+  background: #732C57;
+  color: #ffffff;
+}
+
+.product-price {
+  margin: 8px;
+}
+
+
+
+

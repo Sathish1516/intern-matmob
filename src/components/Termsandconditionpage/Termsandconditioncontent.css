@@ -1,0 +1,44 @@
+.termsandcondition-title{
+    color: #802276;
+    margin-top: -1px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+    margin-left: 20px;
+    position: relative;
+    padding-top: 70px;
+}
+.termsandcondition{
+    width: 100%;
+    /* margin-left: 20px; */
+}
+.termssubtitle{
+    color:#C35086;
+  
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 26px;
+margin-left: 20px;
+}
+.terms{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 30px;
+    
+    
+    
+    color: black;
+}
+.terms1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 30px;
+}
